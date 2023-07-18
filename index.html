@@ -1,7 +1,7 @@
 <html>
 
 <head>
-    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
     <script type="text/javascript" src="./scripts/jquery-1.8.3.min.js"></script>
     <script type="text/javascript" src="./scripts/jszip.min.js"></script>
     <script type="text/javascript" src="./scripts/FileSaver.min.js"></script>
@@ -10,8 +10,9 @@
 <body>
     <div id="main" class="container">
     <div id="hint">
-        All Processing is done in your local Browser, nothing gets uploaded anywhere.
-        The Zip File should contain a Root Folder the mod resides in (e.g. "VanillaVehiclesExpanded")
+        All Processing is done in your local Browser, nothing gets uploaded anywhere.<br>
+        The Zip File should contain a Root Folder the mod resides in (e.g. "VanillaVehiclesExpanded")<br>
+        <div class="alert alert-warning">!!!This applies the description out of the _VehiclePawn to the _Buildable xml!!!</div>
     </div>
     <input type="file" id="file" name="file" multiple /><br />
 
@@ -26,7 +27,7 @@
     <button id="download" onclick="downloadZip()" disabled>Download Zip</button>
     </div>
 
-    <script type="text/javascript" src="/scripts/main.js"></script>
+    <script type="text/javascript" src="./scripts/main.js"></script>
 </body>
 
 </html>
